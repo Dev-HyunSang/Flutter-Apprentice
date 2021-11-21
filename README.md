@@ -19,15 +19,23 @@ Flutter는 프로세스이자 철학이자 커뮤니티입니다.
 Flutter의 선언적 위젯 기반 UI 구조, 반응형 프로그래밍에 대한 일류 지원, 크로스 플랫폼 추상화 및 코드 변경 사항을 핫 리로딩을 할 수 있는 가상 가상 머신 덕분에 생각 했던 것보다 더 생산적일 수 있습니다.
 
 ## Getting Starting
-Flutter가 적합하다고 결정했으므로 다음 단계는 Flutter 앱을 빌드하는데 필요한 도구인 Flutter SDK 및 Dart 컴파일러를 설치하는 것입니다. 다양한 플랫폼을 위한 빌드 및 배포 도구와 함께 Flutter 플러그인이 포함된 IDE가 필요합니다. iOS의 경우에는 Xcode와 Android의 경우에는 Android Studio를 사용합니다.
+Flutterr가 적합하다고 결정했으므로 다음 단계는 Flutter 앱을 빌드하는데 필요한 도구인 Flutter SDK 및 Dart 컴파일러를 설치하는 것입니다. 다양한 플랫폼을 위한 빌드 및 배포 도구와 함께 Flutter 플러그인이 포함된 IDE가 필요합니다. iOS의 경우에는 Xcode와 Android의 경우에는 Android Studio를 사용합니다.
 
-### Installtion
+### Installation at Flutter
 ```shell
 $ brew install flutter
 $ flutter doctor
 ```
 1. macOS의 경우에는 [Homebrew](https://brew.sh/index_ko)를 통해서 Flutter를 손쉽게 설치 할 수 있습니다.  
 2. 설치 이후로는 flutter가 정상적으로 작동하는지 확인할 수 있는 명령어인 `flutter doctor`를 실행을 사용하면 됩니다.
+
+### Installation at Dart
+```shell
+$ brew tap dart-lang/dart
+$ brew install dart
+# upgrade
+$ brew upgrade
+```
 
 ### Getting everything else
 ```shell
