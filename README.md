@@ -36,6 +36,13 @@ $ brew install dart
 # upgrade
 $ brew upgrade
 ```
+### Create New Project
+```shell
+$ flutter create <ProjectName>
+```
+`flutter create <ProjectName>`를 통해서 Flutter 프로젝트를 만들 수 있습니다.  
+`<ProjectName>`는 프로젝트 이름을 입력해 주시면 됩니다.
+**Ex.** `flutter craete hello_flutter`
 
 ### Getting everything else
 ```shell
@@ -79,5 +86,3 @@ Doctor summary (to see all details, run flutter doctor -v):
 ! Doctor found issues in 3 categories.
 ```
 ​​Flutter Doctor는 문제들을 식별합니다. 주로 Java가 설치되어 있지 않거나 오래된 Android 도구 모음, CocoaPods, Android Studio 및 Google Chrome이 누락된 경우 알 수 있습니다.
-
-
