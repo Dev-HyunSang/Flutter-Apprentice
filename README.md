@@ -4,7 +4,7 @@
 
 ## TODO:
 - [X] Section I:Bulid Your First Flutter App / 2021.11.21
-- [ ] Section II:Everything's a Widget
+- [X] Section II:Everything's a Widget / 2021.11.21 ~ 22
 - [ ] Section III:Navigating Between Screens
 - [ ] Section IV:Neworking, Persistence and State
 - [ ] Section V:Deployment
