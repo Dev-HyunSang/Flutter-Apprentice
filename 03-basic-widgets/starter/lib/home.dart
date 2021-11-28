@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fooderlich/card2.dart';
 import 'card1.dart';
 import 'card2.dart';
+import 'card3.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -15,6 +16,7 @@ class _HomeState extends State<Home> {
     // Tab Card
     const Card1(),
     const Card2(),
+    const Card3(),
     Container(color: Colors.blue),
   ];
   void _onItemTapped(int index) {
