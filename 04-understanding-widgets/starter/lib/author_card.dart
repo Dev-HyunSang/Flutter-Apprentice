@@ -21,10 +21,10 @@ class AuthorCard extends StatefulWidget {
 }
 
 class _AuthorCardState extends State<AuthorCard> {
+  bool _isFavorited = false;
+
   @override
   Widget build(BuildContext context) {
-    bool _isFavorited = false;
-
     return Container(
       padding: const EdgeInsets.all(16),
       child: Row(
