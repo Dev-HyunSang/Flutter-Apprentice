@@ -6,6 +6,10 @@
 - [X] Section I:Bulid Your First Flutter App / 2021.11.21
 - [X] Section II:Everything's a Widget / 2021.11.21 ~ 22
 - [ ] Section III:Navigating Between Screens
+  - [X] 3. Basic Widgets / 2021.11.21 ~ 25
+  - [X] 4. Understanding Widgets / 2021.11.26 ~ 30
+  - [ ] 5. Scrollable Widgets
+  - [ ] 6. Interactive Widgets
 - [ ] Section IV:Neworking, Persistence and State
 - [ ] Section V:Deployment
 - [ ] Section VI:Working With Firebase Cloud Firstore
