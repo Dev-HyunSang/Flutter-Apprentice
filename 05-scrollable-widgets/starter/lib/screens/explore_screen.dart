@@ -16,13 +16,7 @@ class ExploreScreen extends StatelessWidget {
       builder: (context, AsyncSnapshot<ExploreData> snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
           final recipes = snapshot.data?.todayRecipes ?? [];
-          return Center(
-            child: Container(
-              child: Container(
-                child: const Text('Show TodayRecipeListView'),
-              ),
-            ),
-          );
+          return TodayRecipeListView(recipes: recipes);
         } else {
           return const Center(
             child: CircularProgressIndicator(),
